@@ -15,7 +15,7 @@ public class BeatBox {
 
     private AssetManager mAssets;
 
-    public BeatBox(Context context){
+    public BeatBox(Context context){  
         mAssets = context.getAssets();
         loadSounds();
     }
